@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+header, .sign_up_sign_in, .get_start{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    margin: 40px;
+}
+span{
+    font-family: "Inter";
+}
+#span_box>span:hover{
+    cursor: pointer;
+    color: #038477;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#span_box{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 150px;
+    height: 41px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.sign_up_sign_in{
+    width: 20%;
+}
+.sign_up_sign_in>button{
+    background-color: #038477;
+    color: white;
+}
+.landing{
+    width: 100%;
+    height: 550px;
+    background-image: url('/img/landingpag1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#opocity{
+   
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#opocity>img{
+    width: 405px;
+    height: 551px;
+}
+#start_bttn{
+    background-color: #103557;
+    color: white;
+}
+h1{
+    width: 578px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Manrope" ;
+}
+.get_start{
+    position: absolute;
+    bottom: 50px;
+    right: 45%;
+}
+.get_start>img{
+    position: absolute;
+    bottom: -35px;
+}
+.block{
+    width: 929px;
+    height: 172px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 4px 4px rgba(181, 181, 181, 0.25);
+    border-radius: 18px;
+}
+.text_block{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_block>p{
+    font-size: 80px;
+    font-family: "Manrope";
+    background: linear-gradient(180deg, #00404C 15.06%, #08D0B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-right: 25px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block>p{
+    font-family: "Inter";
+    font-size: 18px;
+    width: 576px;
+}
+.container{
+    font-family: "Inter";
+    height: 304px;
+    width: 235px;
+    box-shadow: 0px 4px 4px rgba(181, 181, 181, 0.25);
+    border-radius: 18px;    
+    background: linear-gradient(180deg, #DBEAF8 0%, #E6EEF4 100%);
+    text-align: center;
+    padding-top: 10px;
+}
+.container>p{
+    color: #B0B0B0;
+}
+h2{
+    font-weight: 400;
+}
+.containers{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    height: 146px;
+    background-color: rgba(234, 245, 243, 0.5);
+    border-top: 1px solid #E1EFED;
+    margin-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vl{
+    width: 66px;
+    height: 0px;
+    border: 2px solid #E0EAEA;
+    transform: rotate(90deg);
+}
+i{
+    font-size: 40px;
+    margin-left: 20px;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+    color: #038477;
+}
