@@ -45,7 +45,7 @@ button{
     background-size: 100%;
 }
 #opocity{
-   
+    background-color: rgba(244, 227, 227, 0.7);
     height: 550px;
     width: 100%;
     display: flex;
@@ -68,7 +68,7 @@ h1{
 }
 .get_start{
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     right: 45%;
 }
 .get_start>img{
